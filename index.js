@@ -10,7 +10,7 @@ app.use((req, res, next) => {
 });
 app.use(express.json());
 
-const MONGO_URL = "mongodb://localhost:27017";
+const MONGO_URL = "mongodb+srv://dannalpes:dannalpes2026@cluster0.kf3xy4t.mongodb.net/?appName=Cluster0";
 const DB_NAME = "dann_alpes";
 let db;
 
